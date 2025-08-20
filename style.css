@@ -75,21 +75,31 @@ p {
     width: 30px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 480px) {
+
+    .card-principal {
+        max-width: 300px; 
+        padding: 16px;  
+        height: 450px;
+            
+    }
+    .img-principal {
+        width: 268px;
+
+    }
+
     h1 {
-        font-size: 1.2em;
+        font-size: 1.2em;   /* título menor */
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 0.9em;   /* texto menor */
     }
 
     h3 {
-        font-size: 0.9em;
-        width: auto;
-        padding: 5px 10px;
+        font-size: 0.85em;
+        padding: 5px 8px;
     }
 }
-
 
 
