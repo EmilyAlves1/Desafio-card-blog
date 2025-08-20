@@ -19,6 +19,7 @@ body{
 
 .card-principal {
     background-color: hsl(0, 0%, 100%);
+    width: 90%;
     width: 384px;
     height: 522px;
     padding: 24px;
@@ -72,6 +73,10 @@ p {
 
 .img-avatar > img {
     width: 30px;
+}
+
+@media{
+
 }
 
 
