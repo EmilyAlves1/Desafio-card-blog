@@ -75,7 +75,7 @@ p {
     width: 30px;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     h1 {
         font-size: 1.2em;
     }
