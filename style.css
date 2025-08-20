@@ -75,8 +75,20 @@ p {
     width: 30px;
 }
 
-@media{
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
 
+    p {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+        width: auto;
+        padding: 5px 10px;
+    }
 }
 
 
